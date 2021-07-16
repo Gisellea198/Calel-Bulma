@@ -1,0 +1,24 @@
+.myBg {
+    background-color: white;
+    }
+    
+    .myHero h1 {
+    font-size: 50px
+    }
+    
+    .myHero.hero-right {
+    padding-right: 100px;
+    text-align: right;
+    }
+    
+    .myHero.hero-left {
+    padding-left: 100px;
+    
+    }
+    
+    @media(max-width: 768px) {
+    .myHero {
+    padding: 100px 50px !important;
+    text-align: left !important;
+    }
+    }

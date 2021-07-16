@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <title>Calel</title>
+  </head>
+  <body class="has-text-black">
+    <div class="section is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+        <h1>Bienvenido a</h1>
+        <img src="img/Layer 3.png" alt=""><br>
+       <div>
+        <div class="field">
+            <label class="label">Nombre</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Introduce tu nombre">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label">Usuario</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-success" type="text" placeholder="Introduce un nombre de usuario">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+            <p class="help is-success">This username is available</p>
+          </div>
+          
+          <div class="field">
+            <label class="label">Correo</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-danger" type="email" placeholder="Introduce tu correo">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
+          </div>
+          
+          <div class="field">
+            <label class="label">Género</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Masculino</option>
+                  <option>Femenino</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div class="field">
+            <div class="control">
+              <label class="checkbox">
+                <input type="checkbox">
+                Al continuar estoy de acuerdo con los <a href="#">terminos y condiciones</a>
+              </label>
+            </div>
+          </div> 
+
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Registro</button>
+            </div>
+            <div class="control">
+              <button class="button is-link is-light">Cancelar</button>
+            </div>
+          </div>
+       </div>
+    </div>
+  </body> 
+</html>
